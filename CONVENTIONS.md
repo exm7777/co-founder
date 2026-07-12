@@ -178,9 +178,9 @@ the founder's folder. Then classify the folder from files, never from chat memor
   work only inside it.
 - **Fresh:** no charter and none of `index.md`, `log.md`, or `wiki/` exists. Setup owns all
   scaffold creation. Every other collection skill stops without writing and routes to
-  `/co-founder:setup`.
+  `/co-founder:co-founder-setup`.
 - **Partial:** some signature files exist but the Ready signature does not. Preserve every
-  existing file, name what is missing, and route to `/co-founder:setup` in re-sync mode.
+  existing file, name what is missing, and route to `/co-founder:co-founder-setup` in re-sync mode.
   Every other collection skill stops without filling gaps or creating a parallel vault.
 - **Wrong folder:** unrelated work is present and no founder-system signature exists. Route
   to setup, which asks for a fresh business folder.

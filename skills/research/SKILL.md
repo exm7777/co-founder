@@ -34,7 +34,7 @@ working folder. Its receipts, filing, and dedupe rules govern this workflow.
 ## Step 0: Preflight
 
 Run the shared contract's Universal preflight. A Fresh, Partial, or Wrong-folder result routes
-to `/co-founder:setup` (re-sync for Partial) and stops without researching or filing. On Ready,
+to `/co-founder:co-founder-setup` (re-sync for Partial) and stops without researching or filing. On Ready,
 read the charter's path map and the relevant vault context.
 
 Done when: the founder system is Ready and the dossier destination is known.

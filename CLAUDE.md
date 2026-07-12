@@ -5,7 +5,7 @@ This repo ships publicly (unlisted). Everything committed here is founder-visibl
 
 ## What this repo is
 - `.claude-plugin/plugin.json` + `marketplace.json`. CLI install: `claude plugin marketplace add exm7777/co-founder` → `claude plugin install co-founder@co-founder --scope user` → verify with `claude plugin details co-founder@co-founder` → start a fresh `claude` session.
-- `skills/`: setup, vision, plan, gauntlet, research, sprint, review, bank, steward, recall, offer, content-engine, plus the tiny help alias.
+- `skills/`: co-founder-setup, vision, plan, gauntlet, research, sprint, review, bank, steward, recall, offer, content-engine, plus the tiny help alias.
 - `CONVENTIONS.md` is the public shared contract. Each `SKILL.md` plus its local `references/` is the public source of truth for that skill. The repository must stand on its own for external maintainers.
 
 ## Build laws (non-negotiable)

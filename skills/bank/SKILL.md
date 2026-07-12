@@ -33,7 +33,7 @@ working folder. Its state, filing, decision, and dedupe rules govern this workfl
 ## Step 0: What kind of memory is this
 
 Run the shared contract's Universal preflight. A Fresh, Partial, or Wrong-folder result routes
-to `/co-founder:setup` (re-sync for Partial) and stops without creating a note or log row. On
+to `/co-founder:co-founder-setup` (re-sync for Partial) and stops without creating a note or log row. On
 Ready, read the charter's path map. Then classify the event into three shapes; one event can
 produce several. Also read pending `queue.md` entries addressed to `bank`; review entries
 point to the reviewed initiative and requested lesson rather than duplicating either.

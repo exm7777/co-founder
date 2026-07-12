@@ -35,7 +35,7 @@ working folder. Its receipts, filing, and dedupe rules govern this workflow.
 ## Step 0: Load the three inputs
 
 Run the shared contract's Universal preflight. A Fresh, Partial, or Wrong-folder result routes
-to `/co-founder:setup` (re-sync for Partial) and stops without drafting or filing.
+to `/co-founder:co-founder-setup` (re-sync for Partial) and stops without drafting or filing.
 
 1. **The voice file** (`wiki/business/voice.md`): register, words and moves, the never-list,
    the approved samples. Missing: stop and route to setup (or its re-sync) to create it,

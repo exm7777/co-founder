@@ -33,7 +33,7 @@ working folder. Its state, receipts, and queue item rules govern this workflow.
 ## Step 0: Standup
 
 Run the shared contract's Universal preflight. A Fresh, Partial, or Wrong-folder result routes
-to `/co-founder:setup` (re-sync for Partial) and stops without inventing a baton or
+to `/co-founder:co-founder-setup` (re-sync for Partial) and stops without inventing a baton or
 initiative. On Ready, read, in order: the charter, `baton.md` at the vault root (the last session's closing
 note), the active initiatives in `wiki/initiatives/` (states `planned` or `executing`), and
 any waiting "Needs your call" sections.

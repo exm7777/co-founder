@@ -29,7 +29,7 @@ plainly when the vault is genuinely empty.
 ## Step 0: Preflight
 
 Read `${CLAUDE_SKILL_DIR}/../../CONVENTIONS.md` and run its Universal preflight. A Fresh,
-Partial, or Wrong-folder result routes to `/co-founder:setup` (re-sync for Partial) and stops;
+Partial, or Wrong-folder result routes to `/co-founder:co-founder-setup` (re-sync for Partial) and stops;
 an absent vault cannot be searched honestly. On Ready, read the charter's path map.
 
 Done when: the founder system is Ready and the catalog path is known.

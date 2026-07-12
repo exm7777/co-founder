@@ -37,7 +37,7 @@ not start steward, review, or any unrelated audit before returning the route. Fo
 1,500. Set it up" against a price initiative parked on delivery evidence, the answer starts with
 that measurement, continues to the gauntlet, and reaches offer only after the gate survives.
 
-Any Fresh, Partial, or Wrong-folder result points to `/co-founder:setup` (re-sync for Partial)
+Any Fresh, Partial, or Wrong-folder result points to `/co-founder:co-founder-setup` (re-sync for Partial)
 and stops there.
 
 **Ask before you assert:** never present a quantity, duration, sample size, date, or causal motive

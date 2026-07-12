@@ -1,10 +1,10 @@
 ---
-name: setup
+name: co-founder-setup
 description: >-
   One-time setup for the /co-founder collection. Interviews the founder, writes their
   personalized business charter (AGENTS.md + CLAUDE.md), scaffolds their empty vault, and
-  creates their voice file. Run when the user says "set up co-founder", "setup", "get me
-  started", or has just installed the plugin into an empty folder.
+  creates their voice file. Run when the user says "set up co-founder", "set up my co-founder",
+  "get me started", or has just installed the plugin into an empty folder.
 ---
 
 # setup: turn an empty folder into your business brain
@@ -12,7 +12,7 @@ description: >-
 One interview. Three artifacts. Everything else in this collection reads what you build here.
 
 ```
-                    /co-founder:setup
+                    /co-founder:co-founder-setup
                            |
           one interview, ~8 questions, 15-20 minutes
                            |

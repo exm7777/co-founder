@@ -29,7 +29,7 @@ never used to locate it. Its state, receipts, filing, and dedupe rules govern th
 ## Step 0: Load the ground
 
 Run the shared contract's Universal preflight. A Fresh, Partial, or Wrong-folder result routes
-to `/co-founder:setup` (re-sync for Partial) and stops without creating an initiative or vision
+to `/co-founder:co-founder-setup` (re-sync for Partial) and stops without creating an initiative or vision
 stub. On Ready, read the charter (AGENTS.md / CLAUDE.md), then check the charter-mapped vision
 path immediately. If the canonical vision is missing, say the
 founder is planning against nothing, route to vision, and stop without creating or sizing an

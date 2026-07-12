@@ -44,7 +44,7 @@ explicit standalone exception.
   `## Gauntlet verdict`, and `## Log`. Plan expands it to the full template later; the gauntlet
   owns only these headings. List a new stub in `index.md` and `hub/initiatives.md`.
 - **Partial mode** (some structure exists): name what is missing, route to
-  `/co-founder:setup` in re-sync mode, and run the gauntlet verbally if the founder wants to
+  `/co-founder:co-founder-setup` in re-sync mode, and run the gauntlet verbally if the founder wants to
   continue. Write no files until setup repairs the signature.
 - **Standalone mode** (nothing present): the gauntlet still runs, on interview-elicited facts
   alone, verbally, writing no files. Ask the two grounding questions first (what is the

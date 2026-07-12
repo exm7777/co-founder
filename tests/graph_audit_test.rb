@@ -7,7 +7,7 @@ require "tmpdir"
 
 class GraphAuditTest < Minitest::Test
   ROOT = File.expand_path("..", __dir__)
-  AUDIT = File.join(ROOT, "skills", "setup", "references", "graph-audit")
+  AUDIT = File.join(ROOT, "skills", "co-founder-setup", "references", "graph-audit")
 
   def with_vault
     Dir.mktmpdir("graph-audit-") do |dir|

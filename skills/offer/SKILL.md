@@ -35,7 +35,7 @@ working folder. Its receipts, filing, decision, and state rules govern this work
 ## Step 0: Ground in their reality
 
 Run the shared contract's Universal preflight. A Fresh, Partial, or Wrong-folder result routes
-to `/co-founder:setup` (re-sync for Partial) and stops without designing or filing an offer.
+to `/co-founder:co-founder-setup` (re-sync for Partial) and stops without designing or filing an offer.
 On Ready, recall first: stage and margins from the charter, every pricing-related learning and
 decision in the vault, what customers have actually paid before, the vision's direction.
 Cite by file. An offer designed against an imagined business fails in the real one.

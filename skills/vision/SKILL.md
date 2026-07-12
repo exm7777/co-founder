@@ -27,7 +27,7 @@ re-litigated by accident.
 ## Step 0: Preflight
 
 Read `${CLAUDE_SKILL_DIR}/../../CONVENTIONS.md` and run its Universal preflight. A Fresh,
-Partial, or Wrong-folder result routes to `/co-founder:setup` (re-sync for Partial) and stops
+Partial, or Wrong-folder result routes to `/co-founder:co-founder-setup` (re-sync for Partial) and stops
 without writing. On Ready, read the charter and its path map before the vault.
 
 Done when: the founder system is Ready and every path below comes from its charter.

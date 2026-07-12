@@ -38,15 +38,15 @@ install_path=$(INSTALLED="$installed" VERSION="$version" ruby -rjson -e '
 ')
 details=$(HOME="$install_home" claude plugin details co-founder@co-founder)
 grep -q "Skills (13)" <<<"$details"
-for skill in bank content-engine steward gauntlet help offer plan recall research review setup sprint vision; do
+for skill in bank content-engine steward gauntlet help offer plan recall research review co-founder-setup sprint vision; do
   grep -qE "Skills \(13\).*${skill}|  ${skill}[, ]" <<<"$details"
 done
 for skill_dir in "$install_path"/skills/*; do
   test -r "$skill_dir/../../CONVENTIONS.md"
 done
-test -r "$install_path/skills/setup/references/vault-scaffold.md"
-test -r "$install_path/skills/setup/references/migrations.md"
-test -x "$install_path/skills/setup/references/graph-audit"
+test -r "$install_path/skills/co-founder-setup/references/vault-scaffold.md"
+test -r "$install_path/skills/co-founder-setup/references/migrations.md"
+test -x "$install_path/skills/co-founder-setup/references/graph-audit"
 
 echo "install: co-founder@co-founder $version enabled; 13 skills registered from a fresh CLI install"
 echo "release: manifests, metadata, frontmatter, eval schema, and installed cache paths valid for $version"

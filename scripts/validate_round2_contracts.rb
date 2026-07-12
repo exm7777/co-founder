@@ -29,7 +29,7 @@ require_text(
   "records two clients"
 )
 
-%w[setup vision plan gauntlet research sprint review bank steward recall offer content-engine].each do |skill|
+%w[co-founder-setup vision plan gauntlet research sprint review bank steward recall offer content-engine].each do |skill|
   require_text("skills/#{skill}/SKILL.md", "durable claim admission gate")
 end
 
@@ -38,7 +38,7 @@ require_text("skills/bank/SKILL.md", "a file path with blank totals is not a rec
 require_text("skills/content-engine/SKILL.md", "a client count cannot become a personal-post count")
 require_text("skills/gauntlet/SKILL.md", "Revenue cannot become runway")
 require_text("skills/research/SKILL.md", "none found in this search", "exact queries")
-require_text("skills/setup/SKILL.md", "cannot produce `status: high`")
+require_text("skills/co-founder-setup/SKILL.md", "cannot produce `status: high`")
 require_text("skills/gauntlet/references/advisor-board.md", "Agreement cannot turn a shared")
 
 puts "round2: receipt-integrity adversary passed"
@@ -75,7 +75,7 @@ require_text(
   "is still invented. Heuristics choose the next question",
   "Heuristics choose the next question"
 )
-%w[setup vision plan gauntlet research sprint review bank steward recall offer content-engine].each do |skill|
+%w[co-founder-setup vision plan gauntlet research sprint review bank steward recall offer content-engine].each do |skill|
   require_text("skills/#{skill}/SKILL.md", "shared parameter gate")
 end
 require_text("skills/offer/SKILL.md", "delivery input, capacity, cap, spot count", "excluded from current terms")
@@ -118,7 +118,7 @@ require_text(
   "npx skills add exm7777/co-founder",
   "claude plugin marketplace add exm7777/co-founder --scope user",
   "claude plugin install co-founder@co-founder --scope user",
-  "/setup"
+  "/co-founder-setup"
 )
 abort "README still recommends the unavailable reload command" if body("README.md").include?("/reload-plugins")
 require_text(
@@ -128,6 +128,6 @@ require_text(
   "routes directly to",
   "gauntlet"
 )
-require_text("skills/setup/references/charter-template.md", "design an unapproved offer/price")
+require_text("skills/co-founder-setup/references/charter-template.md", "design an unapproved offer/price")
 
 puts "round2: install-and-routing adversary passed"

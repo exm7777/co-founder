@@ -27,7 +27,7 @@ the discipline that makes next week better instead of merely different.
 ## Step 0: Preflight
 
 Read `${CLAUDE_SKILL_DIR}/../../CONVENTIONS.md` and run its Universal preflight. A Fresh,
-Partial, or Wrong-folder result routes to `/co-founder:setup` (re-sync for Partial) and stops
+Partial, or Wrong-folder result routes to `/co-founder:co-founder-setup` (re-sync for Partial) and stops
 without writing a review. On Ready, read the charter and path map.
 
 Done when: the founder system is Ready and the review evidence paths are known.

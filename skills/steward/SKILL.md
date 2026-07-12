@@ -37,7 +37,7 @@ working folder. Its receipts, filing, and dedupe rules govern this workflow.
 ## Step 0: Preflight
 
 Run the shared contract's Universal preflight. A Fresh, Partial, or Wrong-folder result routes
-to `/co-founder:setup` (re-sync for Partial) and stops without moving inbox files or editing the
+to `/co-founder:co-founder-setup` (re-sync for Partial) and stops without moving inbox files or editing the
 vault. On Ready, read the charter's path map before choosing Capture or Health-check.
 
 Done when: the founder system is Ready and every proposed mutation has one mapped destination.

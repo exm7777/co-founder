@@ -24,7 +24,7 @@ Read `.co-founder-version` at the business-folder root.
 
 Build one proposed patch, show it, get the founder's explicit yes, then apply in this order:
 
-1. **Shipped validator.** Copy `graph-audit` from the setup skill's `references/` directory into
+1. **Shipped validator.** Copy `graph-audit` from the co-founder-setup skill's `references/` directory into
    the vault's `scripts/` with executable mode.
 2. **Machine baton.** Add the fixed baton frontmatter from `vault-scaffold.md`. Derive active
    path, state, roadmap counts, next step, and content projections from canonical files. A conflict

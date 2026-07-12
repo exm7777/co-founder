@@ -9,7 +9,7 @@ install_validator_scripts() {
   local repo_root
   repo_root=$(fixture_repo_root)
   mkdir -p scripts
-  cp "$repo_root/skills/setup/references/graph-audit" scripts/graph-audit
+  cp "$repo_root/skills/co-founder-setup/references/graph-audit" scripts/graph-audit
   chmod +x scripts/graph-audit
 }
 
