@@ -6,7 +6,7 @@ require "tmpdir"
 require_relative "../tests/fixtures/validator_vault"
 
 ROOT = File.expand_path("..", __dir__)
-GRAPH_AUDIT = File.join(ROOT, "scripts", "graph-audit")
+GRAPH_AUDIT = File.join(ROOT, "skills", "setup", "references", "graph-audit")
 
 def run(command, vault)
   Open3.capture3(command, "--root", vault)

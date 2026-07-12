@@ -37,18 +37,28 @@ So I built the co-founder I couldn't hire: one system with standards, a memory, 
 One paste in a system terminal:
 
 ```
-mkdir my-business && cd my-business && claude plugin marketplace add exm7777/co-founder --scope user && claude plugin install co-founder@co-founder --scope user && claude
+mkdir my-business && cd my-business && npx skills add exm7777/co-founder --all --agent claude-code --yes && claude
 ```
 
 When Claude opens, run:
 
 ```
-/co-founder:setup
+/setup
 ```
 
 It interviews you, writes your business charter, and scaffolds the vault. Answer one question at a time. Ten minutes in, the system knows your business.
 
-You need: a paid Claude plan, Claude Code 2.1.206 or newer, git, and a terminal.
+You need: a paid Claude plan, Claude Code 2.1.206 or newer, Node.js 18 or newer (it ships the npx command), and a terminal.
+
+To update later, run the same install block again from the folder that contains my-business.
+
+Prefer the classic Claude plugin system? That works too:
+
+```
+mkdir my-business && cd my-business && claude plugin marketplace add exm7777/co-founder --scope user && claude plugin install co-founder@co-founder --scope user && claude
+```
+
+With that path the setup trigger is `/co-founder:setup`.
 
 ## The 12 skills
 

@@ -10,6 +10,6 @@ First public alpha.
 - One initiative state machine across the whole collection: idea, survived, planned, executing, reviewed, banked.
 - Receipts contract: consequential recommendations need a current internal fact plus a checked external source, or they get parked.
 - Founder approval stays explicit on decisions, pricing, terms, and public content.
-- Filing gate: graph-audit ships with the plugin and blocks a filing that would corrupt the record.
+- Filing gate: graph-audit ships inside the setup skill and blocks a filing that would corrupt the record.
 
 Minimum supported Claude Code: 2.1.206.

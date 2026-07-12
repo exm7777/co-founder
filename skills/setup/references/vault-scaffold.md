@@ -59,9 +59,9 @@ exists and resolves. Fresh setup also requires exactly two event rows in `log.md
 genesis row followed by the vision-stub row. A partial setup has no right to advertise a
 completed version.
 
-Copy `scripts/graph-audit` byte-for-byte from the plugin's own `scripts/` directory and preserve
-executable mode. It is shipped code, not a generated template. A vault is not Ready until it runs
-from the business-folder root.
+Copy `graph-audit` byte-for-byte from the setup skill's own `references/` directory into the
+vault's `scripts/` directory and preserve executable mode. It is shipped code, not a generated
+template. A vault is not Ready until it runs from the business-folder root.
 
 ## Note frontmatter (every wiki/ page)
 

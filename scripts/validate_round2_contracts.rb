@@ -115,10 +115,10 @@ abort "marketplace name must match repository" unless marketplace["name"] == "co
 abort "validator-gated release must be 1.0.0" unless plugin["version"] == "1.0.0"
 require_text(
   "README.md",
-  "claude plugin marketplace add exm7777/co-founder",
+  "npx skills add exm7777/co-founder",
+  "claude plugin marketplace add exm7777/co-founder --scope user",
   "claude plugin install co-founder@co-founder --scope user",
-  "claude plugin details co-founder@co-founder",
-  "opens a fresh session"
+  "/setup"
 )
 abort "README still recommends the unavailable reload command" if body("README.md").include?("/reload-plugins")
 require_text(

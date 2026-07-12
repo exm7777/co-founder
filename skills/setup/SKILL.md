@@ -133,10 +133,10 @@ its stored formula recomputes exactly from named confirmed input rows; write tha
 Calculation column. An unresolved mismatch writes neither the total nor a receipt. Setup creates offer.md as an empty
 shape with `offer_state: draft`; offer alone writes its audience, promise, price, and terms.
 
-Create the vault's `scripts/` directory. Copy `${CLAUDE_SKILL_DIR}/../../scripts/graph-audit` into
-it byte-for-byte and preserve executable mode (or set it where the filesystem supports executable
-bits). This shipped program is part of the Ready signature; setup never recreates its logic from
-prose.
+Create the vault's `scripts/` directory. Copy `${CLAUDE_SKILL_DIR}/references/graph-audit` into
+it byte-for-byte as `scripts/graph-audit` and preserve executable mode (or set it where the
+filesystem supports executable bits). This shipped program is part of the Ready signature; setup
+never recreates its logic from prose.
 
 During this step, `log.md` contains exactly the allowed genesis row
 `## [date] setup | vault created`. Do not invent a `scaffold` verb. Do not write

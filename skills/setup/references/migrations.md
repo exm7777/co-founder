@@ -5,9 +5,10 @@ hub notes, baton, queue, and business files before proposing a patch. Founder-au
 laws, history, raw sources, and unknown files survive byte-for-byte unless the founder explicitly
 approves a content edit.
 
-Every supported re-sync copies the plugin's `scripts/graph-audit` into the vault byte-for-byte,
-preserves executable mode, and runs graph-audit before advancing the version marker. Validator
-failures stay visible and keep the migration incomplete.
+Every supported re-sync copies the plugin's `graph-audit` (shipped at the setup skill's
+`references/graph-audit`) into the vault's `scripts/graph-audit` byte-for-byte, preserves
+executable mode, and runs graph-audit before advancing the version marker. Validator failures stay
+visible and keep the migration incomplete.
 
 ## Detect the version
 
@@ -23,7 +24,8 @@ Read `.co-founder-version` at the business-folder root.
 
 Build one proposed patch, show it, get the founder's explicit yes, then apply in this order:
 
-1. **Shipped validator.** Copy `graph-audit` into `scripts/` with executable mode.
+1. **Shipped validator.** Copy `graph-audit` from the setup skill's `references/` directory into
+   the vault's `scripts/` with executable mode.
 2. **Machine baton.** Add the fixed baton frontmatter from `vault-scaffold.md`. Derive active
    path, state, roadmap counts, next step, and content projections from canonical files. A conflict
    stays unresolved for graph-audit; it is not guessed into agreement.

@@ -46,7 +46,7 @@ for skill_dir in "$install_path"/skills/*; do
 done
 test -r "$install_path/skills/setup/references/vault-scaffold.md"
 test -r "$install_path/skills/setup/references/migrations.md"
-test -x "$install_path/scripts/graph-audit"
+test -x "$install_path/skills/setup/references/graph-audit"
 
 echo "install: co-founder@co-founder $version enabled; 13 skills registered from a fresh CLI install"
 echo "release: manifests, metadata, frontmatter, eval schema, and installed cache paths valid for $version"
